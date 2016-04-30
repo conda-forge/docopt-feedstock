@@ -5,7 +5,7 @@ Home: http://docopt.org
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Pythonic argument parser, that will make you smile
 
