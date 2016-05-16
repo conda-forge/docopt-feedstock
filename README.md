@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/docopt-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/docopt-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/docopt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/docopt-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/docopt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/docopt-feedstock/branch/master)
