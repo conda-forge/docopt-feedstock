@@ -11,6 +11,18 @@ Summary: Pythonic argument parser, that will make you smile
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/docopt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/docopt-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/docopt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/docopt-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/docopt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/docopt-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/docopt/badges/version.svg)](https://anaconda.org/conda-forge/docopt)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/docopt/badges/downloads.svg)](https://anaconda.org/conda-forge/docopt)
+
 Installing docopt
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `docopt` available on your platfor
 ```
 conda search docopt --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/docopt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/docopt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/docopt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/docopt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/docopt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/docopt-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/docopt/badges/version.svg)](https://anaconda.org/conda-forge/docopt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/docopt/badges/downloads.svg)](https://anaconda.org/conda-forge/docopt)
 
 
 Updating docopt-feedstock
