@@ -9,18 +9,20 @@ source:
   sha256: 49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491
 
 build:
-  number: 1
+  number: 2
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
-    - python
+  host:
+    - python {{ python_min }}
     - pip
   run:
-    - python
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - docopt
 
